@@ -30,7 +30,7 @@ static uint8_t sBytes[MAX_MIME_PAYLOAD] = {0, 0xAA, 0xBB, 0xCC, 0xDD, 0xEE};
 static volatile bool sMsgAvailable = false;
 static volatile bool sFieldPresent = false;
 
-static volatile double AN4 = 0.0;
+static volatile float AN4 = 0.0;
 static volatile int current_native;
 static volatile int current_pA;
 static volatile double resistance = -1;
