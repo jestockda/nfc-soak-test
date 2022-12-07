@@ -1,0 +1,1226 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+                              ./src/mainblinky.o (Board_Init)
+C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                              C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o) (LED_Init)
+C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                              ./src/mainblinky.o (Chip_Clock_System_BusyWait_ms)
+C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+                              C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o) (Chip_EEPROM_Init)
+C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+                              C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o) (Chip_Flash_GetHighPowerMode)
+C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+                              C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o) (Chip_GPIO_Init)
+C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+                              C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o) (Chip_IOCON_Init)
+C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+                              C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o) (Chip_NFC_Init)
+C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+                              C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o) (Chip_RTC_Init)
+C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+                              C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o) (Chip_SysCon_Peripheral_AssertReset)
+C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+                              (ResetISR)
+C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+                              C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o) (Chip_BusSync_WriteReg)
+c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memcpy.o)
+                              C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o) (memcpy)
+c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memset.o)
+                              C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o) (memset)
+c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(__weak__main.o)
+                              C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o) (__main)
+c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(division_32.o)
+                              C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o) (__aeabi_idiv)
+c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(division_idiv0.o)
+                              c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(division_32.o) (__aeabi_idiv0)
+c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(memcpy.o)
+                              c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memcpy.o) (__aeabi_memcpy)
+
+Discarded input sections
+
+ .group         0x00000000        0xc ./src/crp.o
+ .group         0x00000000        0xc ./src/crp.o
+ .group         0x00000000        0xc ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .group         0x00000000        0xc ./src/mainblinky.o
+ .text          0x00000000        0x0 ./src/mainblinky.o
+ .data          0x00000000        0x0 ./src/mainblinky.o
+ .bss           0x00000000        0x0 ./src/mainblinky.o
+ .debug_macro   0x00000000      0xa4e ./src/mainblinky.o
+ .debug_macro   0x00000000       0x1c ./src/mainblinky.o
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .text          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .data          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .bss           0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x34 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000      0x12d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x16 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x3a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000      0x241 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000      0x12a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0xdc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x26 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x96 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x3b C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x58 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .text          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .data          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .bss           0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .text.LED_On   0x00000000        0xa C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000      0xa4e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000      0x12d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x16 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x3a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000      0x241 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000      0x12a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0xdc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x26 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x96 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x3b C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .data          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .bss           0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_System_SetClockDiv
+                0x00000000       0x50 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_System_SetClockFreq
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_SPI0_SetClockDiv
+                0x00000000       0x24 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_SPI0_GetClockDiv
+                0x00000000       0x18 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_SPI0_SetClockFreq
+                0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_SPI0_GetClockFreq
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Watchdog_SetClockDiv
+                0x00000000       0x30 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Watchdog_GetClockDiv
+                0x00000000       0x18 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Watchdog_SetClockFreq
+                0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Watchdog_GetClockFreq
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Peripheral_DisableClock
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Peripheral_SetClockEnabled
+                0x00000000       0x14 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Peripheral_GetClockEnabled
+                0x00000000       0x14 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Watchdog_SetClockSource
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Watchdog_GetClockSource
+                0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Clkout_GetClockSource
+                0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000      0xa4e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .data          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .bss           0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text.CommitAndFlush
+                0x00000000       0x64 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text.Write    0x00000000       0xa8 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text.Chip_EEPROM_DeInit
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text.Chip_EEPROM_Flush
+                0x00000000        0x8 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text.Chip_EEPROM_Read
+                0x00000000       0x6c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text.Chip_EEPROM_Write
+                0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text.Chip_EEPROM_Memset
+                0x00000000       0x1a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000      0xa4e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .text          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .data          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .bss           0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .text.Chip_Flash_GetHighPowerMode
+                0x00000000       0x20 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .text.Chip_Flash_SetNumWaitStates
+                0x00000000       0x30 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .text.Chip_Flash_GetNumWaitStates
+                0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .text.Chip_Flash_SetHighPowerMode
+                0x00000000       0x40 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_info    0x00000000      0x33f C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_abbrev  0x00000000      0x160 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_loc     0x00000000       0xa0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_aranges
+                0x00000000       0x38 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_ranges  0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000      0x16a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000      0xa4e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_line    0x00000000      0x415 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_str     0x00000000     0x66c1 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .comment       0x00000000       0x7f C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_frame   0x00000000       0x60 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .ARM.attributes
+                0x00000000       0x32 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .text          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .data          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .bss           0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .text.Chip_GPIO_DeInit
+                0x00000000        0xa C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .text.Chip_GPIO_SetPinDIR
+                0x00000000       0x2e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .text.Chip_GPIO_SetPortDIR
+                0x00000000       0x24 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .text.Chip_GPIO_SetupPinInt
+                0x00000000       0x68 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000      0xa4e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .text          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .data          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .bss           0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .text.Chip_IOCON_DeInit
+                0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .text.Chip_IOCON_GetPinConfig
+                0x00000000        0xa C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .text.Chip_IOCON_SetAnabusGrounded
+                0x00000000        0xa C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .text.Chip_IOCON_GetAnabusGrounded
+                0x00000000        0xa C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .text.Chip_IOCON_GroundAnabus
+                0x00000000        0xe C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000      0xa4e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .data          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .bss           0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_GetStatus
+                0x00000000        0x6 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_Int_GetEnabledMask
+                0x00000000        0x8 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_Int_GetRawStatus
+                0x00000000        0x8 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_DeInit
+                0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_SetTargetAddress
+                0x00000000        0x6 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_GetTargetAddress
+                0x00000000        0x6 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_GetLastAccessInfo
+                0x00000000       0x26 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_WordWrite
+                0x00000000       0x38 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_ByteRead
+                0x00000000       0x38 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000      0xa4e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .data          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .bss           0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_DeInit
+                0x00000000       0x34 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_SetCalibration
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_GetCalibration
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Wakeup_SetControl
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Wakeup_GetControl
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Wakeup_SetReload
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Wakeup_GetReload
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Wakeup_GetRemaining
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Wakeup_IsRunning
+                0x00000000       0x34 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Time_GetValue
+                0x00000000       0x18 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Time_SetValue
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Int_SetEnabledMask
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Int_GetEnabledMask
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Int_GetRawStatus
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Int_ClearRawStatus
+                0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .bss.Chip_RTC_AccessCounter
+                0x00000000        0x4 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000      0xa4e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .data          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .bss           0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_IVT_SetAddress
+                0x00000000       0x3c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_IVT_GetAddress
+                0x00000000       0x24 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_Peripheral_DisablePower
+                0x00000000       0x18 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_Peripheral_SetPowerDisabled
+                0x00000000       0x14 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_Peripheral_GetPowerDisabled
+                0x00000000       0x14 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_Reset_GetSource
+                0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_Reset_ClearSource
+                0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_StartLogic_SetEnabledMask
+                0x00000000       0x14 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_StartLogic_GetEnabledMask
+                0x00000000       0x14 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_StartLogic_GetStatus
+                0x00000000       0x14 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_StartLogic_ClearStatus
+                0x00000000       0x18 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_StartLogic_SetPIORisingEdge
+                0x00000000       0x14 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_StartLogic_GetPIORisingEdge
+                0x00000000       0x14 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_GetDeviceID
+                0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000      0xa4e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .text          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .data          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .bss           0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000      0xa4e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000       0x3a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000      0x12d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000      0x241 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .text          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .data          0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .bss           0x00000000        0x0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .text.Chip_BusSync_WaitSync
+                0x00000000       0x20 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .text.Chip_BusSync_WriteReg
+                0x00000000       0x1e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .text.Chip_BusSync_ReadReg
+                0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_info    0x00000000      0x1fc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_abbrev  0x00000000      0x134 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_loc     0x00000000      0x166 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_aranges
+                0x00000000       0x30 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_ranges  0x00000000       0x20 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000      0x170 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000      0xa4e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_line    0x00000000      0x411 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_str     0x00000000     0x65d4 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .comment       0x00000000       0x7f C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_frame   0x00000000       0x60 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .ARM.attributes
+                0x00000000       0x32 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memcpy.o)
+ .text.memcpy   0x00000000        0x8 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memcpy.o)
+ .comment       0x00000000       0x7f c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memcpy.o)
+ .ARM.attributes
+                0x00000000       0x31 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memcpy.o)
+ .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memset.o)
+ .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memset.o)
+ .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memset.o)
+ .text.memset   0x00000000        0x8 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memset.o)
+ .comment       0x00000000       0x7f c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memset.o)
+ .ARM.attributes
+                0x00000000       0x31 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(memset.o)
+ .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(division_32.o)
+ .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(division_32.o)
+ .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(division_32.o)
+ .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memcpy
+                0x00000000       0x2c c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset_lowlevel
+                0x00000000       0x2a c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x6 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0x8 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(memcpy.o)
+ .ARM.attributes
+                0x00000000       0x21 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+Flash30          0x00000000         0x00007800         xr
+SRAM8            0x10000000         0x00001ff0         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/crp.o
+LOAD ./src/mainblinky.o
+LOAD C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a
+LOAD C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a
+START GROUP
+LOAD c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a
+LOAD c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a
+END GROUP
+                0x00000000                __base_Flash30 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00007800                __top_Flash30 = 0x7800
+                0x00007800                __top_Flash = 0x7800
+                0x10000000                __base_SRAM8 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10001ff0                __top_SRAM8 = 0x10001ff0
+                0x10001ff0                __top_RAM = 0x10001ff0
+
+.text           0x00000000      0x7cc
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+                0x00000000                g_pfnVectors
+                0x000000c0                . = ALIGN (0x4)
+                0x000000c0                __section_table_start = .
+                0x000000c0                __data_section_table = .
+                0x000000c0        0x4 LONG 0x7cc LOADADDR (.data)
+                0x000000c4        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000c8        0x4 LONG 0x0 SIZEOF (.data)
+                0x000000cc                __data_section_table_end = .
+                0x000000cc                __bss_section_table = .
+                0x000000cc        0x4 LONG 0x10000000 ADDR (.bss)
+                0x000000d0        0x4 LONG 0x4 SIZEOF (.bss)
+                0x000000d4                __bss_section_table_end = .
+                0x000000d4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000d4       0x8c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+                0x000000fc                Startup_VarInit
+                0x0000013c                ResetISR
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000160      0x19c ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.main     0x00000300       0x30 ./src/mainblinky.o
+                0x00000300                main
+ .text.Board_Init
+                0x00000330       0xe8 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+                0x00000330                Board_Init
+ .text.LED_SetState
+                0x00000418       0x48 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                0x00000418                LED_SetState
+ .text.LED_GetState
+                0x00000460       0x4c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                0x00000460                LED_GetState
+ .text.LED_Off  0x000004ac        0xa C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                0x000004ac                LED_Off
+ *fill*         0x000004b6        0x2 ff
+ .text.LED_Init
+                0x000004b8       0x48 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                0x000004b8                LED_Init
+ .text.LED_Toggle
+                0x00000500       0x12 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                0x00000500                LED_Toggle
+ *fill*         0x00000512        0x2 ff
+ .text.Chip_Clock_System_GetClockDiv
+                0x00000514       0x14 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                0x00000514                Chip_Clock_System_GetClockDiv
+ .text.Chip_Clock_System_GetClockFreq
+                0x00000528       0x14 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                0x00000528                Chip_Clock_System_GetClockFreq
+ .text.Chip_Clock_System_BusyWait_us
+                0x0000053c       0x44 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                0x0000053c                Chip_Clock_System_BusyWait_us
+ .text.Chip_Clock_System_BusyWait_ms
+                0x00000580       0x34 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                0x00000580                Chip_Clock_System_BusyWait_ms
+ .text.Chip_Clock_Peripheral_EnableClock
+                0x000005b4       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                0x000005b4                Chip_Clock_Peripheral_EnableClock
+ .text.Chip_Clock_Clkout_SetClockSource
+                0x000005d0       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                0x000005d0                Chip_Clock_Clkout_SetClockSource
+ .text.Chip_EEPROM_Init
+                0x000005e0       0x5c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+                0x000005e0                Chip_EEPROM_Init
+ .text.Chip_GPIO_Init
+                0x0000063c        0xa C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+                0x0000063c                Chip_GPIO_Init
+ .text.Chip_IOCON_Init
+                0x00000646        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+                0x00000646                Chip_IOCON_Init
+ .text.Chip_IOCON_UngroundAnabus
+                0x00000652        0xe C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+                0x00000652                Chip_IOCON_UngroundAnabus
+ .text.Chip_IOCON_SetPinConfig
+                0x00000660       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+                0x00000660                Chip_IOCON_SetPinConfig
+ .text.Chip_NFC_Int_SetEnabledMask
+                0x00000688        0x8 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+                0x00000688                Chip_NFC_Int_SetEnabledMask
+ .text.Chip_NFC_Int_ClearRawStatus
+                0x00000690       0x20 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+                0x00000690                Chip_NFC_Int_ClearRawStatus
+ .text.Chip_NFC_Init
+                0x000006b0       0x2c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+                0x000006b0                Chip_NFC_Init
+ .text.Chip_RTC_Init
+                0x000006dc        0xc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+                0x000006dc                Chip_RTC_Init
+ .text.Chip_SysCon_Peripheral_AssertReset
+                0x000006e8       0x14 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+                0x000006e8                Chip_SysCon_Peripheral_AssertReset
+ .text.Chip_SysCon_Peripheral_DeassertReset
+                0x000006fc       0x14 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+                0x000006fc                Chip_SysCon_Peripheral_DeassertReset
+ .text.Chip_SysCon_Peripheral_EnablePower
+                0x00000710       0x18 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+                0x00000710                Chip_SysCon_Peripheral_EnablePower
+ .text.defaultIntHandler
+                0x00000728       0x1c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+                0x00000728                NFC_IRQHandler
+                0x00000728                I2C0_IRQHandler
+                0x00000728                PMUBOD_IRQHandler
+                0x00000728                HardFault_Handler
+                0x00000728                SysTick_Handler
+                0x00000728                PendSV_Handler
+                0x00000728                NMI_Handler
+                0x00000728                CT16B0_IRQHandler
+                0x00000728                PIO0_8_IRQHandler
+                0x00000728                PIO0_4_IRQHandler
+                0x00000728                TSEN_IRQHandler
+                0x00000728                SSP0_IRQHandler
+                0x00000728                RTC_IRQHandler
+                0x00000728                PMUFLD_IRQHandler
+                0x00000728                PIO0_6_IRQHandler
+                0x00000728                PIO0_5_IRQHandler
+                0x00000728                PIO0_1_IRQHandler
+                0x00000728                PIO0_IRQHandler
+                0x00000728                ADC_IRQHandler
+                0x00000728                PIO0_3_IRQHandler
+                0x00000728                WDT_IRQHandler
+                0x00000728                SVC_Handler
+                0x00000728                PIO0_10_IRQHandler
+                0x00000728                PIO0_7_IRQHandler
+                0x00000728                CT32B0_IRQHandler
+                0x00000728                PIO0_0_IRQHandler
+                0x00000728                PIO0_2_IRQHandler
+                0x00000728                EEPROM_IRQHandler
+                0x00000728                RTCPWREQ_IRQHandler
+                0x00000728                RFFIELD_IRQHandler
+                0x00000728                C2D_IRQHandler
+                0x00000728                FLASH_IRQHandler
+                0x00000728                I2D_IRQHandler
+                0x00000728                PIO0_9_IRQHandler
+ .text.__weak_main
+                0x00000744        0x8 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(__weak__main.o)
+                0x00000744                __weak_main
+                0x00000744                __main
+ .text.__aeabi_division_idivmod
+                0x0000074c       0x78 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(division_32.o)
+                0x0000074c                __aeabi_idivmod
+                0x0000074c                __aeabi_idiv
+                0x00000752                __aeabi_uidivmod
+                0x00000752                __aeabi_uidiv
+ .text.__aeabi_division_idiv0
+                0x000007c4        0x2 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(division_idiv0.o)
+                0x000007c4                __aeabi_idiv0
+ *(.rodata .rodata.* .constdata .constdata.*)
+ *fill*         0x000007c6        0x2 ff
+ .rodata.sLeds  0x000007c8        0x4 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                0x000007cc                . = ALIGN (0x4)
+
+.glue_7         0x000007cc        0x0
+ .glue_7        0x000007cc        0x0 linker stubs
+
+.glue_7t        0x000007cc        0x0
+ .glue_7t       0x000007cc        0x0 linker stubs
+
+.vfp11_veneer   0x000007cc        0x0
+ .vfp11_veneer  0x000007cc        0x0 linker stubs
+
+.v4_bx          0x000007cc        0x0
+ .v4_bx         0x000007cc        0x0 linker stubs
+
+.iplt           0x000007cc        0x0
+ .iplt          0x000007cc        0x0 ./src/crp.o
+
+.rel.dyn        0x000007cc        0x0
+ .rel.iplt      0x000007cc        0x0 ./src/crp.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000007cc                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000007cc                __exidx_end = .
+                0x000007cc                _etext = .
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x0 load address 0x000007cc
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _edata = .
+
+.igot.plt       0x10000000        0x0 load address 0x000007cc
+ .igot.plt      0x10000000        0x0 ./src/crp.o
+
+.bss            0x10000000        0x4 load address 0x000007cc
+                0x10000000                _bss = .
+ *(.bss*)
+ .bss.stickyMEM_WRITE
+                0x10000000        0x4 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ *(COMMON)
+                0x10000004                . = ALIGN (0x4)
+                0x10000004                _ebss = .
+                [!provide]                PROVIDE (end, .)
+
+.noinit         0x10000004       0x44 load address 0x000007cc
+                0x10000004                _noinit = .
+ *(.noinit*)
+ .noinit        0x10000004       0x44 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+                0x10000048                . = ALIGN (0x4)
+                0x10000048                _end_noinit = .
+                [!provide]                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10001ff0                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_SRAM8 - 0x0))
+                0x00000000                _image_start = LOADADDR (.text)
+                0x000007cc                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x000007cc                _image_size = (_image_end - _image_start)
+OUTPUT(app_demo_dp_blinky.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x44e3
+ .debug_info    0x00000000       0x3f ./src/crp.o
+ .debug_info    0x0000003f      0x2bb ./src/mainblinky.o
+ .debug_info    0x000002fa      0x7a9 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_info    0x00000aa3      0x610 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_info    0x000010b3      0x7df C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_info    0x00001892      0x814 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_info    0x000020a6      0x792 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_info    0x00002838      0x509 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_info    0x00002d41      0x599 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_info    0x000032da      0x81b C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_info    0x00003af5      0x660 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_info    0x00004155      0x38e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+
+.debug_abbrev   0x00000000     0x12e2
+ .debug_abbrev  0x00000000       0x36 ./src/crp.o
+ .debug_abbrev  0x00000036      0x140 ./src/mainblinky.o
+ .debug_abbrev  0x00000176      0x152 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_abbrev  0x000002c8      0x23d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_abbrev  0x00000505      0x222 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_abbrev  0x00000727      0x22c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_abbrev  0x00000953      0x203 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_abbrev  0x00000b56      0x170 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_abbrev  0x00000cc6      0x199 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_abbrev  0x00000e5f      0x175 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_abbrev  0x00000fd4      0x181 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_abbrev  0x00001155      0x18d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+
+.debug_aranges  0x00000000      0x448
+ .debug_aranges
+                0x00000000       0x18 ./src/crp.o
+ .debug_aranges
+                0x00000018       0x20 ./src/mainblinky.o
+ .debug_aranges
+                0x00000038       0x20 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_aranges
+                0x00000058       0x48 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_aranges
+                0x000000a0       0xc8 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_aranges
+                0x00000168       0x58 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_aranges
+                0x000001c0       0x40 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_aranges
+                0x00000200       0x58 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_aranges
+                0x00000258       0x78 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_aranges
+                0x000002d0       0x98 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_aranges
+                0x00000368       0xa0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_aranges
+                0x00000408       0x40 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+
+.debug_macro    0x00000000     0x3266
+ .debug_macro   0x00000000       0x2b ./src/crp.o
+ .debug_macro   0x0000002b      0xa4e ./src/crp.o
+ .debug_macro   0x00000a79       0x1c ./src/crp.o
+ .debug_macro   0x00000a95       0x34 ./src/crp.o
+ .debug_macro   0x00000ac9      0x19f ./src/mainblinky.o
+ .debug_macro   0x00000c68       0x10 ./src/mainblinky.o
+ .debug_macro   0x00000c78      0x12d ./src/mainblinky.o
+ .debug_macro   0x00000da5      0x5b2 ./src/mainblinky.o
+ .debug_macro   0x00001357       0x22 ./src/mainblinky.o
+ .debug_macro   0x00001379       0x16 ./src/mainblinky.o
+ .debug_macro   0x0000138f       0x10 ./src/mainblinky.o
+ .debug_macro   0x0000139f       0x22 ./src/mainblinky.o
+ .debug_macro   0x000013c1       0x3a ./src/mainblinky.o
+ .debug_macro   0x000013fb      0x241 ./src/mainblinky.o
+ .debug_macro   0x0000163c      0x12a ./src/mainblinky.o
+ .debug_macro   0x00001766       0x10 ./src/mainblinky.o
+ .debug_macro   0x00001776       0xdc ./src/mainblinky.o
+ .debug_macro   0x00001852       0x26 ./src/mainblinky.o
+ .debug_macro   0x00001878       0x96 ./src/mainblinky.o
+ .debug_macro   0x0000190e       0x3b ./src/mainblinky.o
+ .debug_macro   0x00001949       0x28 ./src/mainblinky.o
+ .debug_macro   0x00001971       0x1c ./src/mainblinky.o
+ .debug_macro   0x0000198d       0x10 ./src/mainblinky.o
+ .debug_macro   0x0000199d       0x58 ./src/mainblinky.o
+ .debug_macro   0x000019f5      0x1a4 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00001b99      0xa4e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x000025e7      0x18c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00002773      0x16a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x000028dd      0x196 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00002a73      0x16a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00002bdd      0x16a C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00002d47      0x190 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00002ed7      0x176 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x0000304d      0x17c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x000031c9       0x9d C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+
+.debug_line     0x00000000     0x3738
+ .debug_line    0x00000000      0x1cd ./src/crp.o
+ .debug_line    0x000001cd      0x575 ./src/mainblinky.o
+ .debug_line    0x00000742      0x568 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_line    0x00000caa      0x5a1 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_line    0x0000124b      0x5ad C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_line    0x000017f8      0x4d7 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_line    0x00001ccf      0x450 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_line    0x0000211f      0x435 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_line    0x00002554      0x4a8 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_line    0x000029fc      0x4c5 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_line    0x00002ec1      0x4fb C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_line    0x000033bc      0x37c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+
+.debug_str      0x00000000     0x8ab4
+ .debug_str     0x00000000     0x2d7f ./src/crp.o
+                               0x2d8c (size before relaxing)
+ .debug_str     0x00002d7f     0x3cd0 ./src/mainblinky.o
+                               0x69ea (size before relaxing)
+ .debug_str     0x00006a4f      0x30f C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+                               0x6aaa (size before relaxing)
+ .debug_str     0x00006d5e      0x146 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                               0x68b3 (size before relaxing)
+ .debug_str     0x00006ea4      0x67b C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                               0x6c11 (size before relaxing)
+ .debug_str     0x0000751f      0x3a8 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+                               0x6bc0 (size before relaxing)
+ .debug_str     0x000078c7      0x1f9 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+                               0x690b (size before relaxing)
+ .debug_str     0x00007ac0      0x2d3 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+                               0x6b27 (size before relaxing)
+ .debug_str     0x00007d93      0x326 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+                               0x68a1 (size before relaxing)
+ .debug_str     0x000080b9      0x369 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+                               0x6a5f (size before relaxing)
+ .debug_str     0x00008422      0x4d2 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+                               0x6cfe (size before relaxing)
+ .debug_str     0x000088f4      0x1c0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+                               0x54ab (size before relaxing)
+
+.comment        0x00000000       0x7e
+ .comment       0x00000000       0x7e ./src/crp.o
+                                 0x7f (size before relaxing)
+ .comment       0x0000007e       0x7f ./src/mainblinky.o
+ .comment       0x0000007e       0x7f C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .comment       0x0000007e       0x7f C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .comment       0x0000007e       0x7f C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .comment       0x0000007e       0x7f C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .comment       0x0000007e       0x7f C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .comment       0x0000007e       0x7f C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .comment       0x0000007e       0x7f C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .comment       0x0000007e       0x7f C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .comment       0x0000007e       0x7f C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .comment       0x0000007e       0x7f C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .comment       0x0000007e       0x7f c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x31 ./src/crp.o
+ .ARM.attributes
+                0x00000031       0x31 ./src/mainblinky.o
+ .ARM.attributes
+                0x00000062       0x32 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .ARM.attributes
+                0x00000094       0x32 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .ARM.attributes
+                0x000000c6       0x32 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .ARM.attributes
+                0x000000f8       0x32 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .ARM.attributes
+                0x0000012a       0x32 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .ARM.attributes
+                0x0000015c       0x32 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .ARM.attributes
+                0x0000018e       0x32 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .ARM.attributes
+                0x000001c0       0x32 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .ARM.attributes
+                0x000001f2       0x32 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .ARM.attributes
+                0x00000224       0x32 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .ARM.attributes
+                0x00000256       0x31 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x00000287       0x21 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(division_32.o)
+ .ARM.attributes
+                0x000002a8       0x21 c:/nxp/mcuxpressoide_10.2.1_795/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libcr_eabihelpers.a(division_idiv0.o)
+
+.debug_ranges   0x00000000      0x400
+ .debug_ranges  0x00000000       0x10 ./src/mainblinky.o
+ .debug_ranges  0x00000010       0x10 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_ranges  0x00000020       0x88 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_ranges  0x000000a8       0xb8 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_ranges  0x00000160       0x78 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_ranges  0x000001d8       0x30 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_ranges  0x00000208       0x48 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_ranges  0x00000250       0x68 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_ranges  0x000002b8       0x88 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_ranges  0x00000340       0x90 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_ranges  0x000003d0       0x30 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+
+.debug_frame    0x00000000      0x924
+ .debug_frame   0x00000000       0x28 ./src/mainblinky.o
+ .debug_frame   0x00000028       0x28 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_frame   0x00000050       0xb0 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_frame   0x00000100      0x1c8 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_frame   0x000002c8       0xdc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_frame   0x000003a4       0x88 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_frame   0x0000042c       0xac C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_frame   0x000004d8      0x10c C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_frame   0x000005e4      0x198 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_frame   0x0000077c      0x130 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_frame   0x000008ac       0x78 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+
+.debug_loc      0x00000000     0x1afa
+ .debug_loc     0x00000000      0x25e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_loc     0x0000025e      0x34b C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_loc     0x000005a9      0x4c4 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_loc     0x00000a6d      0x520 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_loc     0x00000f8d      0x1c6 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_loc     0x00001153      0x29e C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_loc     0x000013f1      0x3b6 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_loc     0x000017a7      0x187 C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_loc     0x0000192e      0x1cc C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)

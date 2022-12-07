@@ -25,11 +25,15 @@ endif
 # All Target
 all: app_demo_dp_blinky.axf
 
+dependents:
+	-cd C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_board_dp/Debug && $(MAKE) clean all
+	-cd C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_chip_nss/Debug && $(MAKE) clean all
+
 # Tool invocations
-app_demo_dp_blinky.axf: $(OBJS) $(USER_OBJS)
+app_demo_dp_blinky.axf: $(OBJS) $(USER_OBJS) C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_board_dp/Debug/liblib_board_dp.a C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_chip_nss/Debug/liblib_chip_nss.a
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -Xlinker -Map="app_demo_dp_blinky.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "app_demo_dp_blinky_Debug.ld" -o "app_demo_dp_blinky.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug" -L"C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug" -Xlinker -Map="app_demo_dp_blinky.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "app_demo_dp_blinky_Debug.ld" -o "app_demo_dp_blinky.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
@@ -45,5 +49,7 @@ post-build:
 	-@echo ' '
 
 .PHONY: all clean dependents post-build
+C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_board_dp/Debug/liblib_board_dp.a:
+C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_chip_nss/Debug/liblib_chip_nss.a:
 
 -include ../makefile.targets

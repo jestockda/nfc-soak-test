@@ -5,7 +5,7 @@
  * Generated linker script file for NHS3100
  * Created from memory.ldt by FMCreateLinkMemory
  * Using Freemarker v2.3.23
- * MCUXpresso IDE v10.2.1 [Build 795] [2018-07-25]  on Dec 7, 2022 3:48:15 PM
+ * MCUXpresso IDE v10.2.1 [Build 795] [2018-07-25]  on Dec 7, 2022 4:30:51 PM
  */
 
 MEMORY
