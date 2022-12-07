@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>app_example_dp_ndeft2t</name>
+	<name>app_open_nfc_resistance</name>
 	<comment></comment>
 	<projects>
 		<project>mods</project>
@@ -28,7 +28,13 @@
 		<link>
 			<name>mods/ndeft2t</name>
 			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/mods/ndeft2t</locationURI>
+			<locationURI>copy_PARENT/mods/ndeft2t</locationURI>
 		</link>
 	</linkedResources>
+	<variableList>
+		<variable>
+			<name>copy_PARENT</name>
+			<value>$%7BPARENT-1-PROJECT_LOC%7D/nhs3152</value>
+		</variable>
+	</variableList>
 </projectDescription>

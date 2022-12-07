@@ -31,7 +31,7 @@ static const uint8_t sUrl[MAX_URI_PAYLOAD + 1 /* NUL */] = "nxp.com/NTAGSMARTSEN
 #define MAX_TEXT_PAYLOAD (254 - (NDEFT2T_MSG_OVERHEAD(true, \
         NDEFT2T_TEXT_RECORD_OVERHEAD(true, sizeof(LOCALE) - 1) + \
         NDEFT2T_MIME_RECORD_OVERHEAD(true, sizeof(MIME) - 1)) / 2))
-static uint8_t sText[MAX_TEXT_PAYLOAD] = "0 Hello World";
+static uint8_t sText[MAX_TEXT_PAYLOAD] = "0 Hi Evan";
 
 /** @copydoc MAX_TEXT_PAYLOAD */
 #define MAX_MIME_PAYLOAD MAX_TEXT_PAYLOAD

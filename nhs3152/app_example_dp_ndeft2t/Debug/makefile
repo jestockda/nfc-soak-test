@@ -1,0 +1,55 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.init
+
+RM := rm -rf
+
+# All of the sources participating in the build are defined here
+-include sources.mk
+-include src/subdir.mk
+-include subdir.mk
+-include objects.mk
+
+ifneq ($(MAKECMDGOALS),clean)
+ifneq ($(strip $(C_DEPS)),)
+-include $(C_DEPS)
+endif
+endif
+
+-include ../makefile.defs
+
+# Add inputs and outputs from these tool invocations to the build variables 
+
+# All Target
+all: app_open_nfc_resistance.axf
+
+dependents:
+	-cd C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_board_dp/Debug && $(MAKE) clean all
+	-cd C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_chip_nss/Debug && $(MAKE) clean all
+
+# Tool invocations
+app_open_nfc_resistance.axf: $(OBJS) $(USER_OBJS) C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_board_dp/Debug/liblib_board_dp.a C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_chip_nss/Debug/liblib_chip_nss.a
+	@echo 'Building target: $@'
+	@echo 'Invoking: MCU Linker'
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_board_dp\Debug" -L"C:\Users\jesmith\Documents\GitHub\nfc-soak-test\nhs3152\sdk\release_mra2_12_5_nhs3152\sw\nss\lib_chip_nss\Debug" -Xlinker -Map="app_open_nfc_resistance.map" -Xlinker --gc-sections -mcpu=cortex-m0plus -mthumb -T "app_open_nfc_resistance_Debug.ld" -o "app_open_nfc_resistance.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	@echo 'Finished building target: $@'
+	@echo ' '
+	$(MAKE) --no-print-directory post-build
+
+# Other Targets
+clean:
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) app_open_nfc_resistance.axf
+	-@echo ' '
+
+post-build:
+	-@echo 'Performing post-build steps'
+	-arm-none-eabi-size "app_open_nfc_resistance.axf" ; arm-none-eabi-objcopy -v -O binary "app_open_nfc_resistance.axf" "app_open_nfc_resistance.bin" ; arm-none-eabi-objcopy -v -O ihex "app_open_nfc_resistance.axf" "app_open_nfc_resistance.hex" ; # checksum -p Generic_M0plus -d "app_open_nfc_resistance.bin"
+	-@echo ' '
+
+.PHONY: all clean dependents post-build
+C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_board_dp/Debug/liblib_board_dp.a:
+C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_chip_nss/Debug/liblib_chip_nss.a:
+
+-include ../makefile.targets
