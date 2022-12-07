@@ -130,7 +130,7 @@ int main(void)
         	get_i2d();
         	get_adc();
             resistance = (1.6-AN4)/(current_pA*1e-12);
-            sprintf((char *)sText, "AN4: %6.2f current_pA: %8.d resistance: %e current_native: %6.d", AN4,current_pA, resistance, current_native );//commented in from Thesis, changes payloadText to sText
+            sprintf((char *)sText, "AN4: %6.2f current_pA: %8.d resistance: %e current_native: %6.d", AN4,current_pA, resistance, current_native);
             GenerateNdef_Text();
         }
     }
