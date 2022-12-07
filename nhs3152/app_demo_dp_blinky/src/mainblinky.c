@@ -40,7 +40,7 @@ int main(void)
     /* Blink with a period of 250ms+250ms, or 2Hz */
     while (1) {
         LED_Toggle(LED_RED);
-        Chip_Clock_System_BusyWait_ms(250);
+        Chip_Clock_System_BusyWait_ms(50);
     }
 
     return 0;
