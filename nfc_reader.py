@@ -4,8 +4,9 @@
 
 # ------
 # TODO:
-# (1) add error handling for reader disconnect
-# (2) add error handling for no reader on start
+# (1) values only update when connection is broken -> sText
+# (2) add error handling for reader disconnect
+# (3) add error handling for no reader on start
 
 import nfc
 import sys
@@ -57,22 +58,21 @@ def connect(file_name):
 
         while tag.is_present:
     
-            sleep(1)
+            sleep(2)
         
             if not tag.ndef:
                 print("No tag or NDEF records found!")
                 continue
-        
-            f = open(file_name,'a')
 
-            now = datetime.datetime.now()
-            print (now.strftime("%Y-%m-%d %H:%M:%S"))
-            print(tag.ndef.records[0].text)
-            f.write('{} \n'.format(tag.ndef.records[0].text))
-
-            f.close()   
+            if tag.ndef.has_changed and tag.is_present:
+                f = open(file_name,'a')
+                now = datetime.datetime.now()
+                print (now.strftime("%Y-%m-%d %H:%M:%S"))
+                print(tag.ndef.records[0].text)
+                f.write('{} \n'.format(tag.ndef.records[0].text))
+                f.close()   
         
-        print('tag removed')
+        print('tag removed (!)')
 
 def on_startup(targets):
     print('initializing reader ...')

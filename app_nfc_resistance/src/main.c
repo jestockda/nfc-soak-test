@@ -146,8 +146,8 @@ int main(void)
         	get_i2d();
         	get_adc();
             resistance = (1.6-AN4)/(current_pA*1e-12);
+            sprintf((char *)sText, "%6.4f,%8.d,%e", AN4, current_pA, resistance);
             GenerateNdef_TextMime();
-            sprintf((char *)sText, "%6.2f,%8.d,%e", AN4, current_pA, resistance);
     }
     return 0;
 }
