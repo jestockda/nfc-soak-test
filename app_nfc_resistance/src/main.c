@@ -39,7 +39,7 @@ static void set_dac(void);
 static void get_i2d(void);
 static void get_adc(void);
 
-static void GenerateNdef_Text(void);
+static void GenerateNdef_TextMime(void);
 
 void App_FieldStatusCb(bool status)
 {
@@ -57,8 +57,25 @@ void App_MsgAvailableCb(void)
     sMsgAvailable = true; /* Handled in main loop */
 }
 
-
 static void GenerateNdef_Text(void)
+{
+    uint8_t instance[NDEFT2T_INSTANCE_SIZE];
+    uint8_t buffer[NFC_SHARED_MEM_BYTE_SIZE ];
+    NDEFT2T_CREATE_RECORD_INFO_T textRecordInfo = {.pString = (uint8_t *)"en" /* language code */,
+                                                   .shortRecord = true,
+                                                   .uriCode = 0 /* don't care */};
+
+    NDEFT2T_CreateMessage(instance, buffer, NFC_SHARED_MEM_BYTE_SIZE, true);
+    if (NDEFT2T_CreateTextRecord(instance, &textRecordInfo)) {
+        if (NDEFT2T_WriteRecordPayload(instance, sText, sizeof(sText) - 1 /* exclude NUL char */)) {
+            NDEFT2T_CommitRecord(instance);
+        }
+    }
+
+    NDEFT2T_CommitMessage(instance); /* Copies the generated message to NFC shared memory. */
+}
+
+static void GenerateNdef_TextMime(void)
 {
     uint8_t instance[NDEFT2T_INSTANCE_SIZE];
     uint8_t buffer[NFC_SHARED_MEM_BYTE_SIZE ];
@@ -125,14 +142,12 @@ int main(void)
     NDEFT2T_Init();
 
     for (;;) {
-        if (sFieldPresent) {
         	set_dac();
         	get_i2d();
         	get_adc();
             resistance = (1.6-AN4)/(current_pA*1e-12);
-            sprintf((char *)sText, "AN4: %6.2f current_pA: %8.d resistance: %e current_native: %6.d", AN4,current_pA, resistance, current_native);
             GenerateNdef_Text();
-        }
+            sprintf((char *)sText, "AN4: %6.2f current_pA: %8.d resistance: %e current_native: %6.d", AN4,current_pA, resistance, current_native);
     }
     return 0;
 }

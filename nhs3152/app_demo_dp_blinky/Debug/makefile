@@ -26,8 +26,8 @@ endif
 all: app_demo_dp_blinky.axf
 
 dependents:
-	-cd C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_board_dp/Debug && $(MAKE) all
-	-cd C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_chip_nss/Debug && $(MAKE) all
+	-cd C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_board_dp/Debug && $(MAKE) clean all
+	-cd C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_chip_nss/Debug && $(MAKE) clean all
 
 # Tool invocations
 app_demo_dp_blinky.axf: $(OBJS) $(USER_OBJS) C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_board_dp/Debug/liblib_board_dp.a C:/Users/jesmith/Documents/GitHub/nfc-soak-test/nhs3152/sdk/release_mra2_12_5_nhs3152/sw/nss/lib_chip_nss/Debug/liblib_chip_nss.a
