@@ -4,14 +4,10 @@
 
 # ------
 # TODO:
-# (1) duplicate records?
-# (2) add error handling for reader disconnect
-# (3) add error handling for no reader on start
+# (1) add error handling for reader disconnect
+# (2) add error handling for no reader on start
 
 import nfc
-from nfc.clf import RemoteTarget
-import ndef
-
 import sys
 import datetime
 import argparse
@@ -23,64 +19,82 @@ from logging import critical, error, info, warning, debug
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Arguments get parsed via --commands')
+    
     parser.add_argument('-v', metavar='verbosity', type=int, default=2,
         help='Verbosity of logging: 0 -critical, 1- error, 2 -warning, 3 -info, 4 -debug')
+
+    parser.add_argument('-f', metavar='file_name', type=str, default='data_output',
+        help='File name: use .csv file format')
 
     args = parser.parse_args()
     verbose = {0: logging.CRITICAL, 1: logging.ERROR, 2: logging.WARNING, 3: logging.INFO, 4: logging.DEBUG}
     logging.basicConfig(format='%(message)s', level=verbose[args.v], stream=sys.stdout)
-    
+
     return args
 
+def create_file(file_name):
+    f = open(file_name,'w')
+    f.write('ADC,I2D,Resistance\n')
+    f.close()
 
-def connect():
+def connect(file_name):
     rdwr_options = {
         'targets': ['106A'],
-        'on-startup': on_startup,
-        'on-connect': on_connect,
-        'on-release': on_release,
+        'interval': 0.5,
+        'on-startup' : on_startup,
+        'on-discover': on_discover,
+        'on-connect': lambda tag: False,
+        'on-release' : on_release,
     }
     with nfc.ContactlessFrontend('usb:054c') as clf:
-        #tag = clf.connect(rdwr=rdwr_options)
+
+        tag = clf.connect(rdwr=rdwr_options)
+
+        print('connected to tag with type and ID:')
+        print(tag)
         
-        while True:
-            target = clf.sense(RemoteTarget('106A'))
-            if target is None:
-                sleep(0.1) 
-                continue
-            
-            sleep(9)
-            tag = nfc.tag.activate(clf, target)
+        print('attempting to retrieve NDEF text ...')
+
+        while tag.is_present:
+    
             sleep(1)
         
-            f = open('data_1.csv','a')
-    
             if not tag.ndef:
                 print("No tag or NDEF records found!")
                 continue
         
+            f = open(file_name,'a')
+
             now = datetime.datetime.now()
             print (now.strftime("%Y-%m-%d %H:%M:%S"))
-            print('{}'.format(tag.ndef.records[0].text))
-            f.write('{}\n'.format(tag.ndef.records[0].text)) 
+            print(tag.ndef.records[0].text)
+            f.write('{} \n'.format(tag.ndef.records[0].text))
 
             f.close()   
         
+        print('tag removed')
 
 def on_startup(targets):
-    print("startup callback")
+    print('initializing reader ...')
+    return targets
 
-def on_connect(tag):
-    print("on connect callback")
+def on_discover(tag):
+    print('tag found, attempting to connect ...')
+    return True
 
 def on_release(tag):
-    print("on release callback")
+    print('tag moved out of range (!)')
+    return tag
 
 def main():
-    f = open('data_1.csv','w')
-    f.write('data header\n')
-    f.close()
-    connect()
+    file_name = args.f
+    create_file(file_name)
+    try:
+        while True:
+            connect(file_name)
+    except KeyboardInterrupt:
+        print('\nend of session')
+        print('data saved to: '+file_name)
 
 if __name__ == '__main__':
     args = parse_arguments()
