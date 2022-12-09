@@ -10,7 +10,6 @@
  */
 
 #include <math.h>
-
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -36,6 +35,10 @@ static volatile float AN4 = 0.0;
 static volatile int current_native;
 static volatile int current_pA;
 static volatile double resistance = -1;
+
+int N = 50;
+int A = 1900;
+int O = 2048;
 
 static void set_dac(void);
 static void get_i2d(void);
@@ -109,6 +112,21 @@ void set_dac(void){
 	Chip_ADCDAC_WriteOutputDAC(NSS_ADCDAC0, 4095); // max
 }
 
+void init_dac(void){
+	Chip_IOCON_SetPinConfig(NSS_IOCON, IOCON_ANA0_0, IOCON_FUNC_1);
+	Chip_ADCDAC_Init(NSS_ADCDAC0);
+	Chip_ADCDAC_SetMuxDAC(NSS_ADCDAC0, ADCDAC_IO_ANA0_0);
+	Chip_ADCDAC_SetModeDAC(NSS_ADCDAC0, ADCDAC_CONTINUOUS); // hold
+}
+
+void sine_dac(void){
+	for (int i = 0; i < N; i++){
+		int out = A*sin(i*6.28/N) + O;
+		Chip_ADCDAC_WriteOutputDAC(NSS_ADCDAC0, out);
+		//Chip_Clock_System_BusyWait_us(1);
+	}
+}
+
 void get_i2d(void){
 
 	int i2dValue;
@@ -150,28 +168,34 @@ void get_adc(void){
 
 void pwm_dev(void)
 {
+
+	Chip_IOCON_SetPinConfig(NSS_IOCON, IOCON_PIO0_7, IOCON_FUNC_1);
+	Chip_IOCON_SetPinConfig(NSS_IOCON, IOCON_PIO0_3, IOCON_FUNC_1);
+
     Chip_TIMER16_0_Init();
-    Chip_TIMER_PrescaleSet(NSS_TIMER16_0, ((uint32_t)Chip_Clock_System_GetClockFreq() / 250) - 1);
+    Chip_TIMER_PrescaleSet(NSS_TIMER16_0, ((uint32_t)Chip_Clock_System_GetClockFreq() / 250000)-1); //250
 
     /* MR0 -> low to high at 15, no interrupt, no stop, no reset */
-    Chip_TIMER_SetMatch(NSS_TIMER16_0, 0, 15); /* 0-based MR. 15/125 -> 88% duty-cycle */
+    Chip_TIMER_SetMatch(NSS_TIMER16_0, 0, 63); /* 0-based MR. 15/125 -> 88% duty-cycle */
     Chip_TIMER_MatchDisableInt(NSS_TIMER16_0, 0);
     Chip_TIMER_StopOnMatchDisable(NSS_TIMER16_0, 0);
     Chip_TIMER_ResetOnMatchDisable(NSS_TIMER16_0, 0);
 
     /* MR1 -> low to high at 75, no interrupt, no stop, no reset */
-    Chip_TIMER_SetMatch(NSS_TIMER16_0, 1, 75); /* 0-based MR. 75/125 -> 40% duty-cycle */
+    Chip_TIMER_SetMatch(NSS_TIMER16_0, 1, 63); /* 0-based MR. 75/125 -> 40% duty-cycle */
     Chip_TIMER_MatchDisableInt(NSS_TIMER16_0, 1);
     Chip_TIMER_StopOnMatchDisable(NSS_TIMER16_0, 1);
     Chip_TIMER_ResetOnMatchDisable(NSS_TIMER16_0, 1);
 
-    /* MR2 -> PWM cycle time, no interrupt, no stop, reset on match */
-    Chip_TIMER_SetMatch(NSS_TIMER16_0, 2, 125 - 1); /* 0-based MR: 0 to 124 (125 counts) */
+    //MR2 -> PWM cycle time, no interrupt, no stop, reset on match
+
+    Chip_TIMER_SetMatch(NSS_TIMER16_0, 2, 125 - 1);
     Chip_TIMER_MatchDisableInt(NSS_TIMER16_0, 2);
     Chip_TIMER_StopOnMatchDisable(NSS_TIMER16_0, 2);
     Chip_TIMER_ResetOnMatchEnable(NSS_TIMER16_0, 2);
 
-    /* MR3 */
+    //MR3
+
     Chip_TIMER_MatchDisableInt(NSS_TIMER16_0, 3);
     Chip_TIMER_StopOnMatchDisable(NSS_TIMER16_0, 3);
     Chip_TIMER_ResetOnMatchDisable(NSS_TIMER16_0, 3);
@@ -185,18 +209,36 @@ void pwm_dev(void)
     Chip_TIMER_Enable(NSS_TIMER16_0);
 }
 
+/*
+void pwm_sine(void){
+	for (int i = 0; i < N; i++){
+		int out = A*sin(i*6.28/N) + O;
+	    Chip_TIMER_SetMatch(NSS_TIMER16_0, 0, 63);
+		//Chip_Clock_System_BusyWait_us(1);
+	}
+}
+*/
+
 int main(void)
 {
     Board_Init();
-    NDEFT2T_Init();
+    //NDEFT2T_Init();
+    //Chip_Clock_System_BusyWait_ms(50);
+    //pwm_dev();
+    init_dac();
 
     for (;;) {
-        	set_dac();
-        	get_i2d();
-        	get_adc();
-            resistance = (1.6-AN4)/(current_pA*1e-12);
-            sprintf((char *)sText, "%6.4f,%8.d,%e", AN4, current_pA, resistance);
-            GenerateNdef_TextMime();
+
+    	sine_dac();
+
+    	/*
+    	set_dac();
+        get_i2d();
+        get_adc();
+        resistance = (1.6-AN4)/(current_pA*1e-12);
+        sprintf((char *)sText, "%6.4f,%8.d,%e", AN4, current_pA, resistance);
+        GenerateNdef_TextMime();
+        */
     }
     return 0;
 }

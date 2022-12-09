@@ -5,7 +5,7 @@
  * Generated linker script file for NHS3100
  * Created from library.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.23
- * MCUXpresso IDE v10.2.1 [Build 795] [2018-07-25]  on Dec 8, 2022 10:32:57 PM
+ * MCUXpresso IDE v10.2.1 [Build 795] [2018-07-25]  on Dec 9, 2022 5:40:10 PM
  */
 
 GROUP (
