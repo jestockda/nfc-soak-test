@@ -4,7 +4,7 @@
 
 # ------
 # TODO:
-# (1) values only update when connection is broken -> sText
+# (1) list index for tag.ndef.records[0] out of range on first run
 # (2) add error handling for reader disconnect
 # (3) add error handling for no reader on start
 

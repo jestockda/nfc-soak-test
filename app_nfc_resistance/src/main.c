@@ -9,6 +9,8 @@
  *
  */
 
+#include <math.h>
+
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -108,20 +110,30 @@ void set_dac(void){
 }
 
 void get_i2d(void){
+
 	int i2dValue;
 	int i2dNativeValue;
 	Chip_IOCON_SetPinConfig(NSS_IOCON, IOCON_ANA0_4, IOCON_FUNC_1);
 	Chip_I2D_Init(NSS_I2D);
-	Chip_I2D_Setup(NSS_I2D, I2D_SINGLE_SHOT, I2D_SCALER_GAIN_10_1, I2D_CONVERTER_GAIN_LOW, 100);
+	Chip_I2D_Setup(NSS_I2D, I2D_SINGLE_SHOT, I2D_SCALER_GAIN_10_1, I2D_CONVERTER_GAIN_LOW, 200);
 	Chip_I2D_SetMuxInput(NSS_I2D, I2D_INPUT_ANA0_4);
 	Chip_I2D_Start(NSS_I2D);
 	while (!(Chip_I2D_ReadStatus(NSS_I2D) & I2D_STATUS_CONVERSION_DONE)) {;} // wait
 	i2dNativeValue = Chip_I2D_GetValue(NSS_I2D);
-	i2dValue = Chip_I2D_NativeToPicoAmpere(i2dNativeValue, I2D_SCALER_GAIN_10_1, I2D_CONVERTER_GAIN_LOW, 100);
-	Chip_I2D_DeInit(NSS_I2D);
+	i2dValue = Chip_I2D_NativeToPicoAmpere(i2dNativeValue, I2D_SCALER_GAIN_10_1, I2D_CONVERTER_GAIN_LOW, 200);
+
+	if (i2dValue == 25e6) {
+		Chip_I2D_Setup(NSS_I2D, I2D_SINGLE_SHOT, I2D_SCALER_GAIN_100_1, I2D_CONVERTER_GAIN_LOW, 200);
+		Chip_I2D_SetMuxInput(NSS_I2D, I2D_INPUT_ANA0_4);
+		Chip_I2D_Start(NSS_I2D);
+		while (!(Chip_I2D_ReadStatus(NSS_I2D) & I2D_STATUS_CONVERSION_DONE)) {;} // wait
+		i2dNativeValue = Chip_I2D_GetValue(NSS_I2D);
+		i2dValue = Chip_I2D_NativeToPicoAmpere(i2dNativeValue, I2D_SCALER_GAIN_100_1, I2D_CONVERTER_GAIN_LOW, 200);
+	}
 
 	current_native = i2dNativeValue;
 	current_pA = i2dValue;
+	Chip_I2D_DeInit(NSS_I2D);
 }
 
 
@@ -134,6 +146,43 @@ void get_adc(void){
 	while (!(Chip_ADCDAC_ReadStatus(NSS_ADCDAC0) & ADCDAC_STATUS_ADC_DONE)) {;} // wait
 	AN4 = Chip_ADCDAC_GetValueADC(NSS_ADCDAC0);
 	AN4 = (AN4/4095.0)*1.6;
+}
+
+void pwm_dev(void)
+{
+    Chip_TIMER16_0_Init();
+    Chip_TIMER_PrescaleSet(NSS_TIMER16_0, ((uint32_t)Chip_Clock_System_GetClockFreq() / 250) - 1);
+
+    /* MR0 -> low to high at 15, no interrupt, no stop, no reset */
+    Chip_TIMER_SetMatch(NSS_TIMER16_0, 0, 15); /* 0-based MR. 15/125 -> 88% duty-cycle */
+    Chip_TIMER_MatchDisableInt(NSS_TIMER16_0, 0);
+    Chip_TIMER_StopOnMatchDisable(NSS_TIMER16_0, 0);
+    Chip_TIMER_ResetOnMatchDisable(NSS_TIMER16_0, 0);
+
+    /* MR1 -> low to high at 75, no interrupt, no stop, no reset */
+    Chip_TIMER_SetMatch(NSS_TIMER16_0, 1, 75); /* 0-based MR. 75/125 -> 40% duty-cycle */
+    Chip_TIMER_MatchDisableInt(NSS_TIMER16_0, 1);
+    Chip_TIMER_StopOnMatchDisable(NSS_TIMER16_0, 1);
+    Chip_TIMER_ResetOnMatchDisable(NSS_TIMER16_0, 1);
+
+    /* MR2 -> PWM cycle time, no interrupt, no stop, reset on match */
+    Chip_TIMER_SetMatch(NSS_TIMER16_0, 2, 125 - 1); /* 0-based MR: 0 to 124 (125 counts) */
+    Chip_TIMER_MatchDisableInt(NSS_TIMER16_0, 2);
+    Chip_TIMER_StopOnMatchDisable(NSS_TIMER16_0, 2);
+    Chip_TIMER_ResetOnMatchEnable(NSS_TIMER16_0, 2);
+
+    /* MR3 */
+    Chip_TIMER_MatchDisableInt(NSS_TIMER16_0, 3);
+    Chip_TIMER_StopOnMatchDisable(NSS_TIMER16_0, 3);
+    Chip_TIMER_ResetOnMatchDisable(NSS_TIMER16_0, 3);
+
+    /* Enable PWM */
+    Chip_TIMER_SetMatchOutputMode(NSS_TIMER16_0, 0, TIMER_MATCH_OUTPUT_PWM);
+    Chip_TIMER_SetMatchOutputMode(NSS_TIMER16_0, 1, TIMER_MATCH_OUTPUT_PWM);
+
+    /* Reset TC */
+    Chip_TIMER_Reset(NSS_TIMER16_0);
+    Chip_TIMER_Enable(NSS_TIMER16_0);
 }
 
 int main(void)
