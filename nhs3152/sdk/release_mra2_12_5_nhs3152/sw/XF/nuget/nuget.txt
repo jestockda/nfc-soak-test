@@ -1,6 +1,0 @@
-The nuget package
-- Xam.Plugin.Screenshot
-is adapted by NXP, to include support for macOS.
-
-The adapted nuget package can be recognized by the .NTAG postfix.
-
