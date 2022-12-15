@@ -1,13 +1,12 @@
 # Interrogate soak testing MCU over NFC
-# Last revised 12 December 2022
+# Last revised 14 December 2022
 # by J. Evan Smith
 
 # ------
 # TODO:
 # (1) list index for tag.ndef.records[0] out of range on first run
-# (2) Reduce to text rather than text+mime —> see ndeft2t_mod_example_1.c 
-# (3) add error handling for reader disconnect
-# (4) add error handling for no reader on start
+# (2) add error handling for reader disconnect
+# (3) add error handling for no reader on start
 
 import nfc
 import plotext as pltx
@@ -18,6 +17,7 @@ import datetime
 import argparse
 
 from scipy.optimize import curve_fit
+from scipy.signal import find_peaks
 
 import ndef
 from ndef import TextRecord
@@ -27,19 +27,20 @@ from time import sleep
 import logging
 from logging import critical, error, info, warning, debug
 
-flagx = True
-
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Arguments get parsed via --commands')
     
     parser.add_argument('-v', metavar='verbosity', type=int, default=2,
-        help='Verbosity of logging: 0 -critical, 1- error, 2 -warning, 3 -info, 4 -debug')
+        help='Verbosity of logging: 0 -critical, 1 -error, 2 -warning, 3 -info, 4 -debug')
 
     parser.add_argument('-f', metavar='file_name', type=str, default='data_output',
         help='File name: use .csv file format')
 
     parser.add_argument('-t', metavar='period', type=int, default=5,
         help='Period between subsequent measurements')    
+
+    parser.add_argument('-c', metavar='case', type=int, default=0,
+        help='Case: 0 -resistance, 1 -impedance')
 
     args = parser.parse_args()
     verbose = {0: logging.CRITICAL, 1: logging.ERROR, 2: logging.WARNING, 3: logging.INFO, 4: logging.DEBUG}
@@ -52,8 +53,8 @@ def create_file(file_name):
     f.write('ADC,I2D,Resistance\n')
     f.close()
 
-def waveform(x,a,b,c):
-    return a*np.sin(b*x)+c
+def waveform(x,a,b,c,d):
+    return a*np.sin(b*x-c)+d
 
 def connect(file_name):
     rdwr_options = {
@@ -69,7 +70,7 @@ def connect(file_name):
         tag = clf.connect(rdwr=rdwr_options)
         print('connected to tag with type and ID:')
         print(tag)
-        print('attempting to retrieve NDEF text ...')
+        print('attempting to retrieve NDEF records ...')
 
         while tag.is_present:
     
@@ -80,113 +81,133 @@ def connect(file_name):
                 print("No tag or NDEF records found!")
                 continue
 
-            if tag.is_present: #and tag.ndef.has_changed
+            if tag.is_present:
+                match args.c:
+                    case 0:
+                        try:
+                            tag.ndef.records = [TextRecord("0")]
+                            sleep(1)
+                            assert tag.ndef.has_changed is True
+                            f = open(file_name,'a')
+                            now = datetime.datetime.now()
+                            print ("data from " + now.strftime("%Y-%m-%d %H:%M:%S"))
+                            print('resistance (ohms): {}'.format(tag.ndef.records[0].text.split(',')[2]))
+                            print('voltage (V): {}'.format(tag.ndef.records[0].text.split(',')[0]))
+                            print('current (pA): {}'.format(tag.ndef.records[0].text.split(',')[1]))
+                            f.write('{} \n'.format(tag.ndef.records[0].text))
+                            f.close()  
+                        except:
+                            print('something went wrong! trying again ...')
+                            continue
+
+                    case 1:
+                        try:
+                            tag.ndef.records = [TextRecord("1")]
+                            sleep(1)
+                            assert tag.ndef.has_changed is True
+                            f = open(file_name,'a')
+                            now = datetime.datetime.now()
+                            print ("data from " + now.strftime("%Y-%m-%d %H:%M:%S"))
+
+                            for records in tag.ndef.records:
+                                print(records)
+                        
+                            a = np.array(tag.ndef.records[0].data) 
+                            b = np.array(tag.ndef.records[1].data)
+                            y1 = np.zeros(200)
+
+                            print('batch 1')
+                            print('sending acknolwedge ...')
+
+                            tag.ndef.records = [TextRecord("a")]
+                        
+                            sleep(1)
+                            assert tag.ndef.has_changed is True
+
+                            for records in tag.ndef.records:
+                                print(records)
+
+                            c = np.array(tag.ndef.records[0].data) 
+                            d = np.array(tag.ndef.records[1].data)
+                            y2 = np.zeros(200)
+
+                            print('batch 2')
+                            print('sending acknolwedge ...')
+
+                            tag.ndef.records = [TextRecord("b")]
+
+                            for k in np.arange(0,100,1):
+                                y1[k] = a[2*k]+256*a[2*k+1]
+                                y1[k+100] = b[2*k]+256*b[2*k+1]
+                                y2[k] = c[2*k]+256*c[2*k+1]
+                                y2[k+100] = d[2*k]+256*d[2*k+1]
+
+                            x = np.linspace(0,len(y1)-1,len(y1))
+                            param1, param_cov1 = curve_fit(waveform,x,y1,[1500, 0.05, 0, 2000])
+                            param2, param_cov2 = curve_fit(waveform,x,y2,[1500, 0.05, 0, 2000])
+        
+                            pltx.scatter(y1,color='white',marker='braille')
+                            pltx.title('response 1')
+                            pltx_style()
+                            pltx.show()
+                            pltx.clear_figure()
+
+                            pltx.scatter(y2,color='white',marker='braille')
+                            pltx.title('response 2')
+                            pltx_style()
+                            pltx.show()
+                            pltx.clear_figure()
+
+                            pltx.scatter(y1,color='red+',marker='braille')
+                            pltx.scatter(y2,color='blue+',marker='braille')
+                            pltx.title('comparison')
+                            pltx_style()
+                            pltx.show()
+                            pltx.clear_figure()
+
+                            z1 = param1[0]*np.sin(param1[1]*x-param1[2])+param1[3]
+                            z2 = param2[0]*np.sin(param2[1]*x-param2[2])+param2[3]
+
+                            peaks1, _ = find_peaks(z1)
+                            peaks2, _ = find_peaks(z2)
+
+                            pltx.scatter(z1,color='red+',marker='braille')
+                            pltx.scatter(z2,color='blue+',marker='braille')
+                            pltx.scatter(peaks1,z1[peaks1],color='white')
+                            pltx.scatter(peaks2,z2[peaks2],color='white')
+                            pltx.title('curve fit & peak detection')
+                            pltx_style()
+                            pltx.show()
+                            pltx.clear_figure()
+
+                            vch1 = param1[0]/(2**12)*1.6
+                            vch2 = param2[0]/(2**12)*1.6
+
+                            print(param1)
+                            print(param2)
+
+                            I = (vch1-vch2)/97.8e3
+                            Z = vch2/I
+                            
+                            dt = (peaks2[0]-peaks1[0])*((1/879)/100) #1.67e-5
+                            P = 360*879*(dt)
+
+                            print('impedance estimated to be')
+                            print(Z)
+
+                            print('phase difference estimated to be')
+                            print(P)
+
+                            print('resistive (real) component:')
+                            print(Z*np.cos(P*(np.pi/180)))
+
+                            print('reactive (imaginary) component:')
+                            print(Z*np.sin(P*(np.pi/180)))
+                        
+                        except:
+                            print('something went wrong! trying again ...')
+                            continue
                 
-                #try:
-                    f = open(file_name,'a')
-                    now = datetime.datetime.now()
-                    print ("data from " + now.strftime("%Y-%m-%d %H:%M:%S"))
-
-                    for records in tag.ndef.records:
-                        print(records)
-                
-                    a = np.array(tag.ndef.records[0].data) 
-                    b = np.array(tag.ndef.records[1].data)
-                    y1 = np.zeros(200)
-
-                    print('batch 1')
-                    print('sending acknolwedge ...')
-
-                    tag.ndef.records = [TextRecord("a")]
-                
-                    sleep(1)
-                    assert tag.ndef.has_changed is True
-
-                    for records in tag.ndef.records:
-                        print(records)
-
-                    c = np.array(tag.ndef.records[0].data) 
-                    d = np.array(tag.ndef.records[1].data)
-                    y2 = np.zeros(200)
-
-                    print('batch 2')
-                    print('sending acknolwedge ...')
-
-                    tag.ndef.records = [TextRecord("b")]
-
-                    sleep(1)
-                    assert tag.ndef.has_changed is True
-
-                    for k in np.arange(0,100,1):
-                        y1[k] = a[2*k]+256*a[2*k+1]
-                        y1[k+100] = b[2*k]+256*b[2*k+1]
-                        y2[k] = c[2*k]+256*c[2*k+1]
-                        y2[k+100] = d[2*k]+256*d[2*k+1]
-
-                    x = np.linspace(0,len(y1)-1,len(y1))
-                    param1, param_cov1 = curve_fit(waveform,x,y1,[1500, 0.05, 2000])
-                    param2, param_cov2 = curve_fit(waveform,x,y2,[1500, 0.05, 2000])
-
-                    #f.write('{} \n'.format(tag.ndef.records[0].text))
-                    f.close()   
-
-                    pltx.scatter(y1,color='white',marker='braille')
-                    pltx.title('response 1')
-                    pltx_style()
-                    pltx.show()
-                    pltx.clear_figure()
-
-                    pltx.scatter(y2,color='white',marker='braille')
-                    pltx.title('response 2')
-                    pltx_style()
-                    pltx.show()
-                    pltx.clear_figure()
-
-                    pltx.scatter(y1,color='red+',marker='braille')
-                    pltx.scatter(y2,color='blue+',marker='braille')
-                    pltx.title('comparison')
-                    pltx_style()
-                    pltx.show()
-                    pltx.clear_figure()
-
-                    z1 = param1[0]*np.sin(param1[1]*x)+param1[2]
-                    z2 = param2[0]*np.sin(param2[1]*x)+param2[2]
-
-                    pltx.scatter(z1,color='red+',marker='braille')
-                    pltx.scatter(z2,color='blue+',marker='braille')
-                    pltx.title('comparison')
-                    pltx_style()
-                    pltx.show()
-                    pltx.clear_figure()
-
-                    print('parameters from driving wave:')
-                    print(param1)
-
-                    print('parameters from response wave:')
-                    print(param2)
-
-                    vch1 = param1[0]/(2**12)*1.6
-                    vch2 = param2[0]/(2**12)*1.6
-
-                    I = (vch1-vch2)/97.8e3
-                    Z = vch2/I
-
-                    print('impedance estimated to be')
-                    print(Z)
-
-                    #print(param)
-                    #z = param[0]*np.sin(param[1]*x)+param[2]
-                    #pltx.plot(x,z,color='red',marker='braille')
-                    #pltx.title('curve fit results')
-                    #pltx_style()
-                    #pltx.show()
-                    #pltx.clear_figure()
-                
-                #except:
-                #    print('something went wrong! trying again ...')
-                #    continue
-                
-
         print('tag removed (!)')
 
 def on_startup(targets):
